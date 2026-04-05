@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+:root {
+    --fonte01: "Crimson Text", "Times New Roman", serif;
+    --fonte02: "Birthstone", cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: var(--fonte01);
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+header > h1 {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 7vw;
+}
+
+header > p {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    line-height: 1.5em;
+    padding: 40px 20px;
+    font-size: 4vw;
+    font-family: var(--fonte02);
+}
+
+section > p {
+    margin: 30px 0px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: darkslategrey;
+    color: white;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img1 {
+    background-image: url(../images/background001.jpg);
+    background-position: center center;
+}
+
+#img2 {
+    background-image: url(../images/background002.jpg);
+    background-position: right bottom;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
