@@ -12,7 +12,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ===== FUNDO FUTURISTA ===== */
+/* ===== BACKGROUND ===== */
 body::before {
   content: "";
   position: fixed;
@@ -35,7 +35,7 @@ body::after {
   z-index: -1;
 }
 
-/* ===== HERO / TERMINAL ===== */
+/* ===== TERMINAL ===== */
 .hero {
   padding: 100px 20px;
   display: flex;
@@ -160,7 +160,7 @@ body::after {
   box-shadow: 0 0 15px rgba(157,90,246,0.3);
 }
 
-/* ===== SOCIAL ICONS NEON ===== */
+/* ===== CONTATO ===== */
 .social-icons {
     display: flex;
     gap: 15px;
