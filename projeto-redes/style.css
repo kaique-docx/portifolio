@@ -31,11 +31,6 @@ iframe {
     height: 473px;
 }
 
-iframe::webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
 #btns {
     text-align: right;
 }
