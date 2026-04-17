@@ -5,14 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
         body {
-            height: 100px;
-            background: black url(../images/github.jpg) center top no-repeat fixed;
-            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background-size: black;
+        }
+        
+        img {
+            margin: 0px;
+            width: 100dvw;
+        }
+        footer {
+            height: 80px;
+            padding: 20px;
+            margin: 0px;
+            background-color: #e53f3f;
+        }
+        footer > a {
+            display: block;
+            color: white;
+            font-weight: bold;
+            font-size: 2em;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: 0px 0px 5px #000000ff;
+            transition: all 0.3s;
+        }
+
+        footer > a:hover {
+            scale: 1.1;
+            text-shadow: 0px 0px 10px #000000ff;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    
+    <img src="../images/github.jpeg" alt="Meu Youtube">
+    <footer>
+        <a href="https://www.youtube.com/@fallenrose4604" target="_blank">Acessar</a>
+    </footer>
 </body>
 </html>
