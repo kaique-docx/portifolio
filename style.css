@@ -82,7 +82,7 @@ body::after {
   animation: fadeUp 0.8s ease both;
 }
 
-.section h2 {
+h2 {
   color: #9D5AF6;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -161,6 +161,9 @@ body::after {
 }
 
 /* ===== CONTATO ===== */
+footer {
+    padding: 20px;
+}
 .social-icons {
     display: flex;
     justify-content: center;
