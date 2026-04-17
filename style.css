@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "JetBrains Mono", monospace;
+  border-radius: 5px;
 }
 
 body {
