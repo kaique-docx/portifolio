@@ -82,7 +82,7 @@ body::after {
   animation: fadeUp 0.8s ease both;
 }
 
-h2 {
+.section h2 {
   color: #9D5AF6;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -164,6 +164,17 @@ h2 {
 footer {
     padding: 20px;
 }
+
+footer h2 {
+  text-align: center;
+  color: #9D5AF6;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-top: 2px solid #4C1D95;
+  padding-top: 10px;
+}
+
 .social-icons {
     display: flex;
     justify-content: center;
