@@ -160,10 +160,52 @@ body::after {
   box-shadow: 0 0 15px rgba(157,90,246,0.3);
 }
 
-/* ===== CONTATO ===== */
-.contact {
-  text-align: center;
-  border-top: 2px solid #4C1D95;
+/* ===== SOCIAL ICONS NEON ===== */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #4C1D95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9D5AF6;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.social-icons a:hover {
+    color: #DBCAFF;
+    transform: translateY(-5px) scale(1.1);
+    box-shadow:
+        0 0 15px rgba(157,90,246,0.5),
+        0 0 30px rgba(99,102,241,0.3);
+    border-color: #9D5AF6;
+}
+
+/* efeito neon passando */
+.social-icons a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(157,90,246,0.5),
+        transparent
+    );
+    transform: translateX(-120%);
+}
+
+.social-icons a:hover::before {
+    animation: shine 0.8s;
 }
 
 /* ===== ANIMAÇÕES ===== */
